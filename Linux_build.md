@@ -128,8 +128,8 @@ WantedBy=multi-user.target
 如果上面的所有操作都是在root目录下完成的，可以直接将
 
 ```
-WorkingDirectory=/PATH_TO_PHIRA-MP
-ExecStart=/PATH_TO_PHIRA-MP/phira-mp-server
+WorkingDirectory=/root/phira-mp/target/release
+ExecStart=/root/phira-mp/target/release/phira-mp-server
 ```
 
 替换为
